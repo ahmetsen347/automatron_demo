@@ -25,15 +25,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="49" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JAVA" value="74" />
+          <entry key="PLAIN_TEXT" value="58" />
           <entry key="XML" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="49" />
-          <entry key="txt" value="46" />
+          <entry key="java" value="74" />
+          <entry key="txt" value="58" />
           <entry key="xml" value="79" />
         </counts>
       </usages-collector>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -235,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537884364551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Third Commit For Automatic Jenkins Build;">
+      <created>1537884832123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537884832123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Forth Commit For Automatic Jenkins Build;">
+      <created>1537885722131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537885722131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -272,7 +286,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit For Automatic Jenkins Build;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit For Automatic Jenkins Build;" />
+    <MESSAGE value="Third Commit For Automatic Jenkins Build;" />
+    <MESSAGE value="Forth Commit For Automatic Jenkins Build;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forth Commit For Automatic Jenkins Build;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -288,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
