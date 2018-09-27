@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6cb181-fa23-4ff2-a39e-0142dd7e0cdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_objects/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_objects/SignInFirstPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page_objects/SignInSecondPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_utils/FunctionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SignInTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint-state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automatron.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automatron.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,20 +28,20 @@
     <session id="-467232202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1482" />
-          <entry key="PLAIN_TEXT" value="175" />
+          <entry key="JAVA" value="1495" />
+          <entry key="PLAIN_TEXT" value="205" />
           <entry key="Substeps" value="600" />
           <entry key="Substeps step definition" value="20" />
           <entry key="XML" value="193" />
@@ -57,42 +51,54 @@
         <counts>
           <entry key="dummy" value="14" />
           <entry key="feature" value="600" />
-          <entry key="java" value="1482" />
+          <entry key="java" value="1495" />
           <entry key="substeps" value="20" />
-          <entry key="txt" value="161" />
+          <entry key="txt" value="191" />
           <entry key="xml" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="4" />
+          <entry key="feature" value="5" />
           <entry key="html" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
           <entry key="json" value="1" />
           <entry key="substeps" value="3" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
           <entry key="JSON" value="1" />
-          <entry key="Substeps" value="4" />
+          <entry key="Substeps" value="5" />
           <entry key="Substeps step definition" value="3" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_utils/PageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +121,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/test_utils/FunctionalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/page_objects/SignInFirstPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/page_objects/SignInSecondPage.java" />
@@ -130,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" />
       </list>
     </option>
   </component>
@@ -186,7 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,11 +200,73 @@
               <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
               <item name="automatron" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="page_objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +274,8 @@
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/runner" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="projectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -431,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537950244504</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SonarQube Integration Added;">
+      <created>1538056681796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538056681796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -474,30 +550,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16458334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" x="342" y="260" width="682" height="208" id="Find" order="1" sideWeight="0.49926794" type="WINDOWED" weight="0.328594" />
-      <window_info anchor="bottom" x="21" y="93" width="1256" height="538" id="Run" order="2" sideWeight="0.4978038" type="WINDOWED" weight="0.32543445" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.39968404" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4984375" visible="true" weight="0.32804233" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015625" side_tool="true" visible="true" weight="0.32804233" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4978038" weight="0.328594" />
-      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.49895832" weight="0.32910052" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" x="342" y="260" width="682" height="208" id="Find" order="2" sideWeight="0.49926794" type="WINDOWED" weight="0.328594" />
+      <window_info anchor="bottom" x="21" y="93" width="1256" height="538" id="Run" order="3" sideWeight="0.4978038" type="WINDOWED" weight="0.32543445" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49926794" weight="0.39968404" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49733475" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32719395" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4978038" weight="0.328594" />
+      <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.4989339" weight="0.3336945" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.10364583" />
+      <window_info anchor="right" id="SonarQube" order="6" sideWeight="0.4984375" visible="true" weight="0.18976545" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -510,7 +589,8 @@
     <MESSAGE value="Fifth Commit For Automatic Jenkins Build;" />
     <MESSAGE value="Maven Compiler Source and Target Updated To 1.6;" />
     <MESSAGE value="LoginPage.java removed from project;" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginPage.java removed from project;" />
+    <MESSAGE value="SonarQube Integration Added;" />
+    <option name="LAST_COMMIT_MESSAGE" value="SonarQube Integration Added;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -569,16 +649,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/LoginFeatureSubstepDefinitions.substeps" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_utils/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/page_objects/SignInSecondPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -603,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -620,17 +683,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_utils/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
