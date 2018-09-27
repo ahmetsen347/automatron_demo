@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6cb181-fa23-4ff2-a39e-0142dd7e0cdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint-state.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automatron.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automatron.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,21 +39,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1495" />
-          <entry key="PLAIN_TEXT" value="205" />
+          <entry key="JAVA" value="1510" />
+          <entry key="PLAIN_TEXT" value="226" />
+          <entry key="Properties" value="28" />
           <entry key="Substeps" value="600" />
           <entry key="Substeps step definition" value="20" />
-          <entry key="XML" value="193" />
+          <entry key="XML" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
           <entry key="feature" value="600" />
-          <entry key="java" value="1495" />
+          <entry key="java" value="1510" />
+          <entry key="properties" value="28" />
           <entry key="substeps" value="20" />
-          <entry key="txt" value="191" />
-          <entry key="xml" value="193" />
+          <entry key="txt" value="212" />
+          <entry key="xml" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -62,17 +63,23 @@
         <counts>
           <entry key="feature" value="5" />
           <entry key="html" value="1" />
-          <entry key="java" value="16" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="17" />
           <entry key="json" value="1" />
+          <entry key="properties" value="2" />
           <entry key="substeps" value="3" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="16" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="17" />
           <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
           <entry key="Substeps" value="5" />
           <entry key="Substeps step definition" value="3" />
           <entry key="XML" value="6" />
@@ -82,20 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test_utils/PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,10 +129,11 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/SignInTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/Login.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
         <option value="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" />
       </list>
     </option>
@@ -507,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538056681796</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SonarQube Auto Analyse Commit;">
+      <created>1538060083474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538060083474</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,7 +596,8 @@
     <MESSAGE value="Maven Compiler Source and Target Updated To 1.6;" />
     <MESSAGE value="LoginPage.java removed from project;" />
     <MESSAGE value="SonarQube Integration Added;" />
-    <option name="LAST_COMMIT_MESSAGE" value="SonarQube Integration Added;" />
+    <MESSAGE value="SonarQube Auto Analyse Commit;" />
+    <option name="LAST_COMMIT_MESSAGE" value="SonarQube Auto Analyse Commit;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -697,17 +704,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/sonar/report-task.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automatron.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="495">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test_utils/PageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

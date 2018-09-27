@@ -7,6 +7,7 @@ public class PageObject {
 
     protected WebDriver driver;
     private String link;
+    private String deneme;
 
     public PageObject(WebDriver driver){
         this.driver = driver;
