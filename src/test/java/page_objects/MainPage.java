@@ -1,5 +1,6 @@
 package page_objects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,7 +40,13 @@ public class MainPage extends BasePage{
     }
 
     public void clickMainLoginButton(){
-        mainLoginButton.click();
+        mainLoginButton.sendKeys(Keys.TAB);
+        mainLoginButton.sendKeys(Keys.TAB);
+        mainLoginButton.sendKeys(Keys.ENTER);
+        //Actions actions = new Actions(driver);
+        //actions.moveToElement(mainLoginButton);
+        //actions.doubleClick(mainLoginButton).perform();
+        //mainLoginButton.click();
     }
 
     public boolean validateLoginPopup(){
