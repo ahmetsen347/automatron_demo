@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = {"stepdefs"},
+        glue = {"step_definitions"},
         tags = {"~@Ignore"},
         format = {
                 "pretty",
