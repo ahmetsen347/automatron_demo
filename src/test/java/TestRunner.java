@@ -6,7 +6,23 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+
+/*   İLK ÇALIŞAN VERSİYON
 @CucumberOptions(
+        features = "src/test/resources/features",
+        glue = {"step_definitions"},
+        tags = {"~@Ignore"},
+        format = {
+                "pretty",
+                "html:target/cucumber-reports/cucumber-pretty",
+                "json:target/cucumber-reports/CucumberTestReport.json",
+                "rerun:target/cucumber-reports/rerun.txt"
+        })
+*/
+
+
+@CucumberOptions(
+        strict = false,
         features = "src/test/resources/features",
         glue = {"step_definitions"},
         tags = {"~@Ignore"},

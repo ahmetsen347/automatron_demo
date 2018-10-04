@@ -22,6 +22,7 @@ public class MainPage extends BasePage{
     private WebElement loginPopup;
 
     @FindBy(xpath = "/html/body/div[6]/div[2]/div/div/div[2]/div/fieldset/div[1]/div/form/input")
+    //@FindBy(xpath = "toMakeStepFailed")
     private WebElement emailTextbox;
 
     @FindBy(xpath = "/html/body/div[6]/div[2]/div/div/div[2]/div/fieldset/div[2]/div/form/input")
@@ -43,10 +44,6 @@ public class MainPage extends BasePage{
         mainLoginButton.sendKeys(Keys.TAB);
         mainLoginButton.sendKeys(Keys.TAB);
         mainLoginButton.sendKeys(Keys.ENTER);
-        //Actions actions = new Actions(driver);
-        //actions.moveToElement(mainLoginButton);
-        //actions.doubleClick(mainLoginButton).perform();
-        //mainLoginButton.click();
     }
 
     public boolean validateLoginPopup(){
