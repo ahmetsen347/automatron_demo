@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6cb181-fa23-4ff2-a39e-0142dd7e0cdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/ScreenshotHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,23 +42,23 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="383" />
-          <entry key="JAVA" value="4030" />
-          <entry key="PLAIN_TEXT" value="285" />
+          <entry key="JAVA" value="4068" />
+          <entry key="PLAIN_TEXT" value="337" />
           <entry key="Properties" value="262" />
           <entry key="Substeps" value="665" />
           <entry key="Substeps step definition" value="20" />
-          <entry key="XML" value="243" />
+          <entry key="XML" value="274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
           <entry key="feature" value="1048" />
-          <entry key="java" value="4030" />
+          <entry key="java" value="4068" />
           <entry key="properties" value="262" />
           <entry key="substeps" value="20" />
-          <entry key="txt" value="271" />
-          <entry key="xml" value="243" />
+          <entry key="txt" value="323" />
+          <entry key="xml" value="274" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -72,11 +69,11 @@
           <entry key="html" value="5" />
           <entry key="iml" value="1" />
           <entry key="java" value="36" />
-          <entry key="json" value="3" />
+          <entry key="json" value="4" />
           <entry key="properties" value="10" />
           <entry key="substeps" value="3" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -85,12 +82,12 @@
           <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="36" />
-          <entry key="JSON" value="3" />
+          <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="10" />
           <entry key="Substeps" value="7" />
           <entry key="Substeps step definition" value="3" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -124,22 +121,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1698#1699#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -222,13 +210,12 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="automatron" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="cucumber-reporting" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="automatron" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
         </path>
       </expand>
       <select />
@@ -274,46 +261,20 @@
             <path>
               <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
               <item name="automatron" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatron" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="page_actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatron" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="page_objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatron" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatron" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
               <item name="automatron" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-reports" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,6 +334,56 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="cucumber report generator" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="cucumber-reporting:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="maven clean" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean:clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="C:/hackathon/idea_workspace/automatron/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="automatron" />
@@ -532,7 +543,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.maven clean" />
       <item itemvalue="TestNG.C:/hackathon/idea_workspace/automatron/src/test/resources/testng.xml" />
+      <item itemvalue="Maven.cucumber report generator" />
       <item itemvalue="TestNG.TestRunner" />
       <item itemvalue="TestNG.C:/hackathon/idea_workspace/automatron/testng.xml" />
       <item itemvalue="TestNG.TestRunner (1)" />
@@ -540,6 +553,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRunner (1)" />
+        <item itemvalue="Maven.cucumber report generator" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.C:/hackathon/idea_workspace/automatron/testng.xml" />
       </list>
@@ -640,38 +654,45 @@
       <option name="project" value="LOCAL" />
       <updated>1538150933697</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Log4j, Screenshot Functionalities Added;">
+      <created>1538654144886</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1538654144886</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 37m 45s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 15h 11m 55s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 38m 26s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 15h 14m 26s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 39m 21s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 15h 15m 27s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 40m 47s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 06m 20s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 42m 42s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 10m 56s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 44m 27s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 13m 08s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 46m 14s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 14m 11s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 47m 26s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 16m 40s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 50m 01s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 17m 51s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2018.10.04 at 14h 50m 49s.xml">
+    <history-entry file="TestRunner_(1) - 2018.10.04 at 16h 23m 22s.xml">
       <configuration name="TestRunner (1)" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -686,7 +707,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -703,17 +723,17 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.32827735" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49167928" weight="0.05400982" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49733475" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4968017" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.4978678" weight="0.3336945" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5016129" side_tool="true" visible="true" weight="0.14658849" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5016129" side_tool="true" weight="0.26226014" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4983871" visible="true" weight="0.14658849" />
-      <window_info anchor="right" id="SonarQube" order="6" sideWeight="0.4984375" weight="0.18976545" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4983871" visible="true" weight="0.26226014" />
+      <window_info anchor="right" id="SonarQube" order="6" sideWeight="0.4984375" weight="0.2835821" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -732,7 +752,8 @@
     <MESSAGE value="Cucumber Integration Started;" />
     <MESSAGE value="Cucumber Integration Added Test Cases;" />
     <MESSAGE value="Cucumber Integration Added Second Test Cases;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber Integration Added Second Test Cases;" />
+    <MESSAGE value="Log4j, Screenshot Functionalities Added;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log4j, Screenshot Functionalities Added;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -880,24 +901,30 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/rerun.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/CucumberTestReport.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+        <state relative-caret-position="412">
+          <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

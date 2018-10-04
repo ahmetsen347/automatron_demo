@@ -112,8 +112,8 @@
                         </goals>
                         <configuration>
                             <projectName>automatron</projectName>
-                            <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
-                            <cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
+                            <outputDirectory>target/reports</outputDirectory>
+                            <cucumberOutput>target/cucumber.json</cucumberOutput>
                             <buildNumber>1</buildNumber>
                             <parallelTesting>false</parallelTesting>
                         </configuration>
