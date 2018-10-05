@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/log4j.properties">
           <value>
             <set />
@@ -23,7 +28,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelperLocal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/test_utils/PageObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/MyTestRunner.java">
           <value>
             <set />
           </value>
@@ -84,6 +109,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/testng.xml">
           <value>
             <set />
           </value>

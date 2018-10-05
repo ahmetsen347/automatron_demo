@@ -1,29 +1,29 @@
 package page_actions;
 
 import helpers.ScreenshotHelper;
+import helpers.SeleniumHelperLocal;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import page_objects.MainPage;
-
-import java.util.concurrent.TimeUnit;
 
 public class MainPageActions {
     static final Logger applicationLogger = Logger.getLogger("applicationLogger");
 
-    WebDriver driver;
+    //*** // For Remote Parallel Executions
+
+    //WebDriver driver = SeleniumDriver.baseDriver;
+
+    //***
+
+
+    //*** // For Local Executions
+    SeleniumHelperLocal seleniumHelperLocal = new SeleniumHelperLocal("https://finanswebde.com/");
+    WebDriver driver = seleniumHelperLocal.getDriver();
+    //***
+
     MainPage mainPage;
 
-    private void getDriver(){
-        System.setProperty("webdriver.chrome.driver","C:\\hackathon\\webdrivers\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get("https://finanswebde.com/");
-    }
-
     public void openSiteAndCloseNotificationPopup(){
-        getDriver();
         mainPage = new MainPage(driver);
         mainPage.closeNotificationQuestionPopup();
         ScreenshotHelper.takeScreenshot(driver, "DenemeBu");
