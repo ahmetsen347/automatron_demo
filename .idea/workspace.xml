@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab6cb181-fa23-4ff2-a39e-0142dd7e0cdd" name="Default Changelist" comment="Selenium Local And Remote Driver Configurations Added;">
+    <list default="true" id="ab6cb181-fa23-4ff2-a39e-0142dd7e0cdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_helpers/XmlHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_objects/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_objects/ProductData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_objects/RootData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelperLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelperLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/ScreenshotHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_helpers/ScreenshotHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,68 +42,69 @@
     <session id="-467232202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="383" />
-          <entry key="JAVA" value="5085" />
-          <entry key="PLAIN_TEXT" value="474" />
-          <entry key="Properties" value="262" />
+          <entry key="JAVA" value="6689" />
+          <entry key="PLAIN_TEXT" value="522" />
+          <entry key="Properties" value="279" />
           <entry key="Substeps" value="665" />
           <entry key="Substeps step definition" value="20" />
-          <entry key="XML" value="463" />
+          <entry key="XML" value="541" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
           <entry key="feature" value="1048" />
-          <entry key="java" value="5085" />
-          <entry key="properties" value="262" />
+          <entry key="java" value="6689" />
+          <entry key="properties" value="279" />
           <entry key="substeps" value="20" />
-          <entry key="txt" value="458" />
-          <entry key="xml" value="463" />
+          <entry key="txt" value="506" />
+          <entry key="xml" value="541" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="4" />
           <entry key="cucumber_reports" value="1" />
-          <entry key="feature" value="13" />
+          <entry key="feature" value="16" />
           <entry key="html" value="5" />
           <entry key="iml" value="1" />
-          <entry key="java" value="74" />
+          <entry key="java" value="108" />
           <entry key="json" value="4" />
-          <entry key="properties" value="10" />
+          <entry key="properties" value="20" />
           <entry key="substeps" value="3" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Cucumber" value="6" />
+          <entry key="CLASS" value="4" />
+          <entry key="Cucumber" value="9" />
           <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="74" />
+          <entry key="JAVA" value="108" />
           <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="10" />
+          <entry key="Properties" value="20" />
           <entry key="Substeps" value="7" />
           <entry key="Substeps step definition" value="3" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -97,10 +112,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,18 +161,24 @@
         <option value="$PROJECT_DIR$/src/test/java/page_objects/MainPage.java" />
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/LoggerHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/helpers/ScreenshotHelper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelperLocal.java" />
-        <option value="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpers/SeleniumHelper.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/helpers/ScreenshotHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data_helpers/LoginData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/data_objects/ProductData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data_objects/LoginData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data_objects/RootData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data_helpers/XmlHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium_helpers/ScreenshotHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" />
       </list>
     </option>
   </component>
@@ -210,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +265,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="data_helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data_objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium_helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automatron" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
@@ -288,33 +334,34 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="automatron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automatron" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/runner" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="selenium_helpers" />
+      <recent name="data_objects" />
       <recent name="runner" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\hackathon\idea_workspace\automatron\src\test\resources" />
+      <recent name="C:\hackathon\idea_workspace\automatron\src\main\resources" />
+      <recent name="C:\hackathon\idea_workspace\automatron" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\hackathon\idea_workspace\automatron\src\test\resources" />
@@ -335,9 +382,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/hackathon/idea_workspace/automatron/testng.xml">
+  <component name="RunManager" selected="Application.XmlHelper">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_helpers.XmlHelper" />
+      <module name="automatron" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,23 +518,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automatron" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -578,18 +622,18 @@
       <item itemvalue="Maven.maven clean" />
       <item itemvalue="TestNG.C:/hackathon/idea_workspace/automatron/src/test/resources/testng.xml" />
       <item itemvalue="Maven.cucumber report generator" />
-      <item itemvalue="TestNG.TestRunner" />
       <item itemvalue="TestNG.C:/hackathon/idea_workspace/automatron/testng.xml" />
       <item itemvalue="TestNG.MyTestRunner" />
       <item itemvalue="TestNG.MyTestRunner.feature" />
+      <item itemvalue="Application.XmlHelper" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XmlHelper" />
         <item itemvalue="TestNG.C:/hackathon/idea_workspace/automatron/testng.xml" />
         <item itemvalue="Maven.cucumber report generator" />
         <item itemvalue="TestNG.MyTestRunner.feature" />
         <item itemvalue="TestNG.MyTestRunner" />
-        <item itemvalue="TestNG.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -716,38 +760,45 @@
       <option name="project" value="LOCAL" />
       <updated>1538739807337</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Demo Project Auto Jenkis Build Test Commit;">
+      <created>1538829242068</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1538829242069</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 11h 51m 21s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 20h 40m 06s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 14h 02m 47s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 20h 40m 50s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 14h 14m 06s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 20h 50m 27s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 14h 15m 28s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 20h 52m 36s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyTestRunner_feature - 2018.10.05 at 14h 17m 09s.xml">
-      <configuration name="MyTestRunner.feature" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 14h 17m 28s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 20h 54m 10s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 14h 37m 25s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 20h 56m 26s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.05 at 14h 40m 34s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 21h 07m 40s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 13h 14m 13s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 21h 14m 37s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 15h 28m 34s.xml">
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 21h 33m 17s.xml">
+      <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__hackathon_idea_workspace_automatron_testng_xml - 2018.10.06 at 21h 34m 58s.xml">
       <configuration name="C:/hackathon/idea_workspace/automatron/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -764,7 +815,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -772,16 +823,16 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.49895832" weight="0.32910052" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" x="342" y="260" width="682" height="208" id="Find" order="2" sideWeight="0.49926794" type="WINDOWED" weight="0.328594" />
-      <window_info anchor="bottom" x="128" y="116" width="1179" height="518" id="Run" order="3" sideWeight="0.4978038" type="WINDOWED" weight="0.32543445" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49626866" weight="0.39869988" />
+      <window_info anchor="bottom" x="404" y="467" width="1255" height="511" id="Run" order="3" sideWeight="0.4978038" type="WINDOWED" weight="0.32543445" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.32827735" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49167928" weight="0.05400982" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.22751896" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4936034" visible="true" weight="0.22751896" />
-      <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.4968017" weight="0.19068256" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5127932" side_tool="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48720682" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49626866" weight="0.19068256" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -791,6 +842,37 @@
       <window_info anchor="right" id="SonarQube" order="6" sideWeight="0.4984375" weight="0.2835821" />
       <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5035063" side_tool="true" weight="0.15778251" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" sideWeight="0.49895832" weight="0.32910052" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" x="342" y="260" width="682" height="208" id="Find" order="2" sideWeight="0.49926794" type="WINDOWED" weight="0.328594" />
+      <window_info anchor="bottom" x="404" y="467" width="1255" height="511" id="Run" order="3" sideWeight="0.4978038" type="WINDOWED" weight="0.32543445" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49167928" weight="0.05400982" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5127932" side_tool="true" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48720682" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49626866" weight="0.19068256" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4964937" visible="true" weight="0.15778251" />
+      <window_info anchor="right" id="SonarQube" order="6" sideWeight="0.4984375" weight="0.2835821" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5035063" side_tool="true" weight="0.15778251" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="substepsFeature" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -812,7 +894,20 @@
     <MESSAGE value="Cucumber-Reports Plugin Configuration Added;" />
     <MESSAGE value="Cucumber-Reports Plugin Jenkins Integration Complete;" />
     <MESSAGE value="Selenium Local And Remote Driver Configurations Added;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Local And Remote Driver Configurations Added;" />
+    <MESSAGE value="Demo Project Auto Jenkis Build Test Commit;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo Project Auto Jenkis Build Test Commit;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelper.java</url>
+          <line>14</line>
+          <properties field="driver" class="selenium_helpers.SeleniumHelper" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -834,34 +929,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test_utils/PageObject.java" />
-    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/SignIn.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/SignIn.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Login.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/helpers/LoggerHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/ScreenshotHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html" />
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" />
     <entry file="file://$PROJECT_DIR$/target/cucumber.json" />
@@ -869,47 +940,6 @@
     <entry file="file://$PROJECT_DIR$/target/cucumber_reports" />
     <entry file="file://$PROJECT_DIR$/target/cucumber-reports/rerun.txt" />
     <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/CucumberTestReport.json" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="344" selection-start-line="344" selection-end-line="344" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="112" column="39" lean-forward="true" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/SeleniumHelperLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/SeleniumHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -940,37 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -981,10 +980,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helpers/SeleniumDriver.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1142" selection-start-line="1142" selection-end-line="1142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="352" selection-start-line="352" selection-end-line="352" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data_helpers/TestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelperLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data_objects/ProductData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data_objects/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data_objects/RootData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data_helpers/XmlHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium_helpers/ScreenshotHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

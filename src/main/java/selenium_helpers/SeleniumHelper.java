@@ -1,4 +1,4 @@
-package helpers;
+package selenium_helpers;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -25,18 +25,30 @@ public class SeleniumHelper{
         this.node = node;
 
         Platform platform = Platform.fromString(os.toUpperCase());
+
         if(browser.equalsIgnoreCase("chrome")) {
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.setCapability("platform", platform);
-            this.driver = new RemoteWebDriver(new URL(node + "/wd/hub"), chromeOptions);
-        } else if (browser.equalsIgnoreCase("firefox")) {
+            this.driver = new RemoteWebDriver(new URL(node), chromeOptions);
+        }
+
+
+
+        else if (browser.equalsIgnoreCase("firefox")) {
             FirefoxOptions firefoxOptions = new FirefoxOptions();
             firefoxOptions.setCapability("platform", platform);
-            this.driver = new RemoteWebDriver(new URL(node + "/wd/hub"), firefoxOptions);
-        } else {
+            firefoxOptions.setLegacy(true);
+            this.driver = new RemoteWebDriver(new URL(node), firefoxOptions);
+
+
+            WebDriver testDriver = this.driver;
+        }
+
+
+        else {
             OperaOptions operaOptions = new OperaOptions();
             operaOptions.setCapability("platform", platform);
-            this.driver = new RemoteWebDriver(new URL(node + "/wd/hub"), operaOptions);
+            this.driver = new RemoteWebDriver(new URL(node), operaOptions);
         }
 
         this.driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);

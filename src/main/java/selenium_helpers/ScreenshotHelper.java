@@ -1,4 +1,4 @@
-package helpers;
+package selenium_helpers;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -16,11 +16,14 @@ public class ScreenshotHelper {
     private static String currentDate;
     private static String fileName;
 
-    public static void takeScreenshot(WebDriver driver, String stepDef){
+    public static void takeScreenshot(WebDriver driver, String stepDef, boolean validationScr){
         currentDate = new SimpleDateFormat("dd-MM-yyyy_HH-mm-ss").format(new Date());
-        fileName = String.format("C://automatronscr//scr_%1s_%2s.jpg", currentDate, stepDef);
-        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        if(validationScr)
+            fileName = String.format("C://hackathon//logs//automatronscr//validation_scr_%1s_%2s.jpg", currentDate, stepDef);
+        else
+            fileName = String.format("C://hackathon//logs//automatronscr//error_scr_%1s_%2s.jpg", currentDate, stepDef);
         try {
+            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(scrFile, new File(fileName));
         } catch (IOException e) {
             applicationLogger.error(e);

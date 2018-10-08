@@ -1,10 +1,9 @@
 package page_actions;
 
-import helpers.ScreenshotHelper;
-import helpers.SeleniumHelperLocal;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import page_objects.MainPage;
+import selenium_helpers.SeleniumHelperLocal;
 
 public class MainPageActions {
     static final Logger applicationLogger = Logger.getLogger("applicationLogger");
@@ -14,7 +13,6 @@ public class MainPageActions {
     //WebDriver driver = SeleniumDriver.baseDriver;
 
     //***
-
 
     //*** // For Local Executions
     SeleniumHelperLocal seleniumHelperLocal = new SeleniumHelperLocal("https://finanswebde.com/");
@@ -26,7 +24,6 @@ public class MainPageActions {
     public void openSiteAndCloseNotificationPopup(){
         mainPage = new MainPage(driver);
         mainPage.closeNotificationQuestionPopup();
-        ScreenshotHelper.takeScreenshot(driver, "DenemeBu");
         applicationLogger.info("Selenium Web Driver Successfully Created");
     }
 

@@ -3,6 +3,7 @@
 
 
 <!-- ///// LOCAL EXECUTION  ////// -->
+<!--
 <suite name="Automatron Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
     <test name="Amazon Tests" annotations="JDK" preserve-order="true">
         <classes>
@@ -10,34 +11,35 @@
         </classes>
     </test>
 </suite>
-
+-->
 
 <!-- ///// REMOTE PARALLEL EXECUTION  ////// -->
-        <!--
+
         <suite name="Automatron Test Suite" verbose="1" parallel="tests" configfailurepolicy="continue">
             <parameter name="os" value="WIN10"/>
             <parameter name="url" value="https://finanswebde.com/"/>
 
 
-        <test name="Tests on Chrome" preserve-order="true" group-by-instances="true">
+        <test name="Tests on Chrome" preserve-order="true" group-by-instances="true" thread-count="1">
             <parameter name="browser" value="chrome"/>
-            <parameter name="node" value="node_url_here"/>
+            <parameter name="node" value="http://192.168.43.207:9999/wd/hub"/>
             <classes>
                 <class name="MyTestRunner"/>
             </classes>
         </test>
 
-        <test name="Tests on Firefox" preserve-order="true" group-by-instances="true">
+        <test name="Tests on Firefox" preserve-order="true">
             <parameter name="browser" value="firefox"/>
-            <parameter name="node" value="node_url_here"/>
+            <!--<parameter name="node" value="http://192.168.43.2:7777/wd/hub"/>-->
+            <parameter name="node" value="http://192.168.43.207:5555/wd/hub"/>
             <classes>
                 <class name="MyTestRunner"/>
             </classes>
         </test>
 
-        <test name="Tests on Opera" preserve-order="true" group-by-instances="true">
+        <test name="Tests on Opera" preserve-order="true" group-by-instances="true" thread-count="1">
             <parameter name="browser" value="opera"/>
-            <parameter name="node" value="node_url_here"/>
+            <parameter name="node" value="http://192.168.43.203:6666/wd/hub"/>
             <classes>
                 <class name="MyTestRunner"/>
             </classes>
@@ -45,4 +47,3 @@
 
 
         </suite>
-        -->

@@ -1,15 +1,6 @@
-import cucumber.api.CucumberOptions;
-import cucumber.api.testng.CucumberFeatureWrapper;
-import cucumber.api.testng.TestNGCucumberRunner;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
-
 //// LOCAL EXECUTIONS /////
 
-/**/
+/*
 
 @CucumberOptions(
         strict = false,
@@ -42,11 +33,18 @@ public class MyTestRunner {
         testNGCucumberRunner.finish();
     }
 }
-
+*/
 
         //// REMOTE PARALLEL EXECUTIONS /////
 
-/*
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.testng.CucumberFeatureWrapper;
+import cucumber.api.testng.TestNGCucumberRunner;
+import selenium_helpers.SeleniumDriver;
+import selenium_helpers.SeleniumHelper;
+import org.testng.annotations.*;
+
 @CucumberOptions(
         strict = false,
         features = "src/test/resources/features",
@@ -85,4 +83,3 @@ public class MyTestRunner {
         }
     }
 }
-*/
