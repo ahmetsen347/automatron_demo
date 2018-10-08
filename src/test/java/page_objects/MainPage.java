@@ -22,7 +22,6 @@ public class MainPage extends BasePage{
     private WebElement loginPopup;
 
     @FindBy(xpath = "/html/body/div[6]/div[2]/div/div/div[2]/div/fieldset/div[1]/div/form/input")
-    //@FindBy(xpath = "toMakeStepFailed")
     private WebElement emailTextbox;
 
     @FindBy(xpath = "/html/body/div[6]/div[2]/div/div/div[2]/div/fieldset/div[2]/div/form/input")
@@ -30,6 +29,9 @@ public class MainPage extends BasePage{
 
     @FindBy(xpath = "/html/body/div[6]/div[2]/div/div/div[2]/div/fieldset/div[4]/div/button")
     private WebElement loginPopupLoginButton;
+
+    @FindBy(xpath = "/html/body/div[6]/div[2]/div/div/div[1]/button")
+    private WebElement loginPopupCloseButton;
 
     // Actions
     public void closeNotificationQuestionPopup(){
@@ -62,5 +64,9 @@ public class MainPage extends BasePage{
 
     public void clickLoginPopupLoginButton(){
         loginPopupLoginButton.click();
+    }
+
+    public void clickLoginPopupCloseButton(){
+        loginPopupCloseButton.click();
     }
 }

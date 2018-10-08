@@ -128,7 +128,6 @@
                             <projectName>automatron</projectName>
                             <outputDirectory>target/reports</outputDirectory>
                             <cucumberOutput>target/cucumber.json</cucumberOutput>
-                            <buildNumber>1</buildNumber>
                             <parallelTesting>true</parallelTesting>
                         </configuration>
                     </execution>

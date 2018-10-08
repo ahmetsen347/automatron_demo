@@ -1,69 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-
-<!-- ///// LOCAL EXECUTION  ////// -->
-<!--
-<suite name="Automatron Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
-    <test name="Amazon Tests" annotations="JDK" preserve-order="true">
-        <classes>
-            <class name="MyTestRunner"/>
-        </classes>
-    </test>
-</suite>
--->
-
-<!-- ///// REMOTE PARALLEL EXECUTION  ////// -->
-
-<!--
-        <suite name="Automatron Test Suite" verbose="1" parallel="tests" configfailurepolicy="continue">
-            <parameter name="os" value="WIN10"/>
-            <parameter name="url" value="https://finanswebde.com/"/>
-
-
-        <test name="Tests on Chrome" preserve-order="true" group-by-instances="true" thread-count="1">
-            <parameter name="browser" value="chrome"/>
-            <parameter name="node" value="http://192.168.43.207:9999/wd/hub"/>
-            <classes>
-                <class name="MyTestRunner"/>
-            </classes>
-        </test>
-
-        <test name="Tests on Firefox" preserve-order="true">
-            <parameter name="browser" value="firefox"/>
-            <parameter name="node" value="http://192.168.43.2:7777/wd/hub"/>
-            <classes>
-                <class name="MyTestRunner"/>
-            </classes>
-        </test>
-
-        <test name="Tests on Opera" preserve-order="true" group-by-instances="true" thread-count="1">
-            <parameter name="browser" value="opera"/>
-            <parameter name="node" value="http://192.168.43.203:6666/wd/hub"/>
-            <classes>
-                <class name="MyTestRunner"/>
-            </classes>
-        </test>
-    -->
-
-    <suite name="Automatron Test Suite" verbose="1" parallel="classes" configfailurepolicy="continue" thread-count="3">
+    <suite name="Automatron Test Suite" parallel="classes" configfailurepolicy="continue" thread-count="3">
         <parameter name="url" value="https://finanswebde.com/"/>
 
-    <test name="Tests on Chrome" preserve-order="true" parallel="true" group-by-instances="true" thread-count="1">
+    <test name="Tests on Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="MyTestRunner"/>
         </classes>
     </test>
 
-    <test name="Tests on Firefox" preserve-order="true" parallel="true" group-by-instances="true" thread-count="1">
+    <test name="Tests on Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="MyTestRunner"/>
         </classes>
     </test>
 
-    <test name="Tests on Microsoft Edge" preserve-order="true" parallel="true" group-by-instances="true" thread-count="1">
+    <test name="Tests on Microsoft Edge">
         <parameter name="browser" value="microsoft_edge"/>
         <classes>
             <class name="MyTestRunner"/>

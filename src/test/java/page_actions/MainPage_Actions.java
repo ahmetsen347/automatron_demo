@@ -5,24 +5,12 @@ import org.openqa.selenium.WebDriver;
 import page_objects.MainPage;
 import selenium_helpers.SeleniumDriver;
 
-public class MainPageActions {
+public class MainPage_Actions{
     static final Logger applicationLogger = Logger.getLogger("applicationLogger");
-
-    //*** // For Remote Parallel Executions
-
     WebDriver driver = SeleniumDriver.baseDriver;
-
-    //***
-
-    //*** // For Local Executions
-    //SeleniumHelperLocal seleniumHelperLocal = new SeleniumHelperLocal("https://finanswebde.com/");
-    //WebDriver driver = seleniumHelperLocal.getDriver();
-    //***
-
-    MainPage mainPage;
+    MainPage mainPage = new MainPage(driver);
 
     public void openSiteAndCloseNotificationPopup(){
-        mainPage = new MainPage(driver);
         mainPage.closeNotificationQuestionPopup();
     }
 
@@ -42,5 +30,9 @@ public class MainPageActions {
 
     public boolean validateNotLoggedInMainPage(){
         return mainPage.validateNotLoggedInMainPage();
+    }
+
+    public void clickLoginPopupCloseButton(){
+        mainPage.clickLoginPopupCloseButton();
     }
 }
