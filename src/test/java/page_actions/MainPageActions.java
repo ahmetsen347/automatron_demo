@@ -3,20 +3,20 @@ package page_actions;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import page_objects.MainPage;
-import selenium_helpers.SeleniumHelperLocal;
+import selenium_helpers.SeleniumDriver;
 
 public class MainPageActions {
     static final Logger applicationLogger = Logger.getLogger("applicationLogger");
 
     //*** // For Remote Parallel Executions
 
-    //WebDriver driver = SeleniumDriver.baseDriver;
+    WebDriver driver = SeleniumDriver.baseDriver;
 
     //***
 
     //*** // For Local Executions
-    SeleniumHelperLocal seleniumHelperLocal = new SeleniumHelperLocal("https://finanswebde.com/");
-    WebDriver driver = seleniumHelperLocal.getDriver();
+    //SeleniumHelperLocal seleniumHelperLocal = new SeleniumHelperLocal("https://finanswebde.com/");
+    //WebDriver driver = seleniumHelperLocal.getDriver();
     //***
 
     MainPage mainPage;

@@ -3,7 +3,7 @@
 
 
 <!-- ///// LOCAL EXECUTION  ////// -->
-
+<!--
 <suite name="Automatron Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
     <test name="Amazon Tests" annotations="JDK" preserve-order="true">
         <classes>
@@ -11,11 +11,11 @@
         </classes>
     </test>
 </suite>
-
+-->
 
 <!-- ///// REMOTE PARALLEL EXECUTION  ////// -->
 
-<!--
+
         <suite name="Automatron Test Suite" verbose="1" parallel="tests" configfailurepolicy="continue">
             <parameter name="os" value="WIN10"/>
             <parameter name="url" value="https://finanswebde.com/"/>
@@ -46,4 +46,3 @@
         </test>
 
         </suite>
--->
