@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6cb181-fa23-4ff2-a39e-0142dd7e0cdd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_helpers/XmlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_helpers/XmlHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_actions/MainPageActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +43,11 @@
         <counts>
           <entry key="Cucumber" value="383" />
           <entry key="JAVA" value="6702" />
-          <entry key="PLAIN_TEXT" value="607" />
+          <entry key="PLAIN_TEXT" value="627" />
           <entry key="Properties" value="279" />
           <entry key="Substeps" value="665" />
           <entry key="Substeps step definition" value="20" />
-          <entry key="XML" value="551" />
+          <entry key="XML" value="553" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,8 +57,8 @@
           <entry key="java" value="6702" />
           <entry key="properties" value="279" />
           <entry key="substeps" value="20" />
-          <entry key="txt" value="591" />
-          <entry key="xml" value="551" />
+          <entry key="txt" value="611" />
+          <entry key="xml" value="553" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -81,7 +74,7 @@
           <entry key="properties" value="20" />
           <entry key="substeps" value="3" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="23" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -96,13 +89,23 @@
           <entry key="Properties" value="20" />
           <entry key="Substeps" value="7" />
           <entry key="Substeps step definition" value="3" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/ScreenshotHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/data_helpers/LoginData.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/data_objects/ProductData.java" />
         <option value="$PROJECT_DIR$/src/main/java/data_objects/LoginData.java" />
         <option value="$PROJECT_DIR$/src/main/java/data_objects/RootData.java" />
@@ -160,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/java/selenium_helpers/SeleniumHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/data_helpers/XmlHelper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -330,7 +333,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/runner" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -755,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538995962949</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Local Tests Enabled;">
+      <created>1539002241778</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1539002241778</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -818,14 +828,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.32827735" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49167928" weight="0.05400982" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5127932" side_tool="true" weight="0.22101842" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.48720682" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48720682" visible="true" weight="0.22101842" />
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49626866" weight="0.19068256" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.4964937" visible="true" weight="0.15778251" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" sideWeight="0.4964937" visible="true" weight="0.15778251" />
       <window_info anchor="right" id="SonarQube" order="6" sideWeight="0.4984375" weight="0.2835821" />
       <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5035063" side_tool="true" weight="0.15778251" />
     </layout>
@@ -883,7 +893,8 @@
     <MESSAGE value="Selenium Local And Remote Driver Configurations Added;" />
     <MESSAGE value="Demo Project Auto Jenkis Build Test Commit;" />
     <MESSAGE value="Datamanagement functionality added &amp; 'ScreenshotHelper.java' updated;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datamanagement functionality added &amp; 'ScreenshotHelper.java' updated;" />
+    <MESSAGE value="Local Tests Enabled;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Local Tests Enabled;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -983,13 +994,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/data_objects/ProductData.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1111,6 +1115,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
         </state>
       </provider>
     </entry>
