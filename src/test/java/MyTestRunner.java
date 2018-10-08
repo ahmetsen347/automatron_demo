@@ -58,9 +58,9 @@ public class MyTestRunner {
     @BeforeClass(alwaysRun = true)
     @Parameters({"os", "browser", "url", "node"})
     public void setUpClass(String os, String browser, String url, String node) throws Exception {
+        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
         SeleniumHelper seleniumHelper = new SeleniumHelper(os, browser, url, node);
         SeleniumDriver.baseDriver = seleniumHelper.getDriver();
-        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
 
     @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
