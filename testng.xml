@@ -15,7 +15,7 @@
 
 <!-- ///// REMOTE PARALLEL EXECUTION  ////// -->
 
-
+<!--
         <suite name="Automatron Test Suite" verbose="1" parallel="tests" configfailurepolicy="continue">
             <parameter name="os" value="WIN10"/>
             <parameter name="url" value="https://finanswebde.com/"/>
@@ -44,5 +44,30 @@
                 <class name="MyTestRunner"/>
             </classes>
         </test>
+    -->
+
+    <suite name="Automatron Test Suite" verbose="1" parallel="classes" configfailurepolicy="continue" thread-count="3">
+        <parameter name="url" value="https://finanswebde.com/"/>
+
+    <test name="Tests on Chrome" preserve-order="true" parallel="true" group-by-instances="true" thread-count="1">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="MyTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Tests on Firefox" preserve-order="true" parallel="true" group-by-instances="true" thread-count="1">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="MyTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Tests on Microsoft Edge" preserve-order="true" parallel="true" group-by-instances="true" thread-count="1">
+        <parameter name="browser" value="microsoft_edge"/>
+        <classes>
+            <class name="MyTestRunner"/>
+        </classes>
+    </test>
 
         </suite>

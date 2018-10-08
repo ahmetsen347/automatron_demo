@@ -43,8 +43,8 @@ public class MyTestRunner {
         //// REMOTE PARALLEL EXECUTIONS /////
 
 
-
 @CucumberOptions(
+        monochrome = false,
         strict = false,
         features = "src/test/resources/features",
         glue = {"step_definitions"},
@@ -56,10 +56,10 @@ public class MyTestRunner {
     private TestNGCucumberRunner testNGCucumberRunner;
 
     @BeforeClass(alwaysRun = true)
-    @Parameters({"os", "browser", "url", "node"})
-    public void setUpClass(String os, String browser, String url, String node) throws Exception {
+    @Parameters({"browser", "url"})
+    public void setUpClass(String browser, String url) throws Exception {
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
-        SeleniumHelper seleniumHelper = new SeleniumHelper(os, browser, url, node);
+        SeleniumHelper seleniumHelper = new SeleniumHelper(browser, url);
         SeleniumDriver.baseDriver = seleniumHelper.getDriver();
     }
 
