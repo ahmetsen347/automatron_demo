@@ -25,8 +25,4 @@ public class XmlHelper {
            return null;
        }
    }
-
-   public static void main(String[] args){
-        getRootDataFromXml();
-   }
 }

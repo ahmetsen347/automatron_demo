@@ -30,22 +30,12 @@ public class SeleniumHelper{
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.setCapability("platform", platform);
             this.driver = new RemoteWebDriver(new URL(node), chromeOptions);
-        }
-
-
-
-        else if (browser.equalsIgnoreCase("firefox")) {
+        } else if (browser.equalsIgnoreCase("firefox")) {
             FirefoxOptions firefoxOptions = new FirefoxOptions();
             firefoxOptions.setCapability("platform", platform);
             firefoxOptions.setLegacy(true);
             this.driver = new RemoteWebDriver(new URL(node), firefoxOptions);
-
-
-            WebDriver testDriver = this.driver;
-        }
-
-
-        else {
+        } else {
             OperaOptions operaOptions = new OperaOptions();
             operaOptions.setCapability("platform", platform);
             this.driver = new RemoteWebDriver(new URL(node), operaOptions);

@@ -24,7 +24,6 @@ public class MainPageActions {
     public void openSiteAndCloseNotificationPopup(){
         mainPage = new MainPage(driver);
         mainPage.closeNotificationQuestionPopup();
-        applicationLogger.info("Selenium Web Driver Successfully Created");
     }
 
     public boolean clickMainLoginButton(){
